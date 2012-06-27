@@ -1,0 +1,17 @@
+name = Scribd Input Filter
+description = "Provides an input filter for embedding documents from Scribd."
+core = 7.x
+
+; Package name (see http://drupal.org/node/101009 for a list of names)
+package = Input filters
+
+; Additional files
+files[] = scribd_filter.module
+files[] = scribd_filter.test
+
+; Information added by drupal.org packaging script on 2012-05-28
+version = "7.x-1.3"
+core = "7.x"
+project = "scribd_filter"
+datestamp = "1338201696"
+

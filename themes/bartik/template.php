@@ -105,6 +105,25 @@ function bartik_process_maintenance_page(&$variables) {
   }
 }
 
+/*Override theme
+function bartik_theme($existing, $type, $theme, $path){
+	
+  return array(
+   'user_profile' => array(
+      'arguments' => array('form' => NULL),
+      'render element' => 'form',
+      'template' => 'user-profile',
+	  'path' => drupal_get_path('theme', 'bartik') . '/templates', 
+    ),  
+  );
+}
+
+function bartik_preprocess_user_profile(&$variables) {
+  // this is the currently logged in user
+  print $variables;
+  //$content = $variables['content'];
+}*/
+
 /**
  * Override or insert variables into the node template.
  */

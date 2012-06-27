@@ -1,0 +1,13 @@
+name = "Time Spent"
+description = "Monitors the time that users spent on your site and pages."
+package = Statistics
+core = 7.x
+configure = admin/config/people/time_spent
+
+
+; Information added by drupal.org packaging script on 2011-10-06
+version = "7.x-2.0"
+core = "7.x"
+project = "time_spent"
+datestamp = "1317923807"
+

@@ -1,0 +1,20 @@
+/*
+div#BRcontainer{
+  _height: expression(documentElement.clientHeight);
+}
+div#BRnav {
+  _position:absolute;
+  _top: expression(documentElement.scrollTop + documentElement.clientHeight-this.offsetHeight); 
+}
+*/
+#epubreader{
+  width: 100%;
+  height: 600px;
+}
+
+iframe.fileviewer {
+  width: 99%;
+  min-width: 640px;
+  height: 800px;
+}
+

@@ -1,0 +1,12 @@
+name = User role field
+description = Define user fields by role
+dependencies[] = field_ui
+package = Fields
+core = 7.x
+
+; Information added by drupal.org packaging script on 2012-06-12
+version = "7.x-1.0"
+core = "7.x"
+project = "user_role_field"
+datestamp = "1339468335"
+
